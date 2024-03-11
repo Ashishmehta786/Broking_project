@@ -10,6 +10,7 @@ import About from './ui/About.jsx';
 import { Signup } from './ui/Signup.jsx';
 import { Holdings } from './Data/User/Holdings.jsx';
 import { Contact } from './ui/Contactus.jsx';
+import { Dashboard } from './Data/User/Dashboard.jsx';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -42,18 +43,21 @@ const router = createBrowserRouter([
 ,{
   path:'/Contact',
   element:<Contact/>
-
-
+},{
+  path:'/Dashboard',
+  element:<Dashboard/>
 }
 ]);
+
+
+
+
+
 
 const root = createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-
     <RouterProvider router={router}/>
-
-
   </React.StrictMode>
 );

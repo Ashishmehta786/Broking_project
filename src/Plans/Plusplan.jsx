@@ -1,7 +1,7 @@
 import React from "react";
 const Plusplan=()=>{
-    return(<div> 
-         Plusplan
+    return(<div className="items-center"> 
+      
     </div>)
 }
 

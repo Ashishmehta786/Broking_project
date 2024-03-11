@@ -15,7 +15,7 @@ const Navbar=()=>{
         SetMobileView(!mobileView);
     }
 return(<>
-<div className=" bg-white sticky top-0 flex  z-10 flex-row items-center justify-between p-3 md:px-[200px]" >
+<div className=" bg-white sticky top-0 flex  z-30 flex-row items-center justify-between p-3 md:px-[200px]" >
 <h1  className="text-3xl text-gray-950">BrokerABC</h1>
 <div className="flex  flex-row items-center justify-between cursor-pointer text-lg ">
     <NavLink to="/" className=" text-slate-950 hover:text-slate-600 hidden  md:block p-3 m-1 ">Home</NavLink>

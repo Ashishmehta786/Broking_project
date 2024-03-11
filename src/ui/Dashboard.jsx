@@ -1,5 +1,9 @@
 import React from "react";
-const Dashboard =()=>{
-    return(<div></div>)
+import Navbar from './Navbar'
+const board =()=>{
+    return(<><Navbar/><div className="flex flex-col items-center justify-between">
+
+    This is Dashboard
+        </div></>)
 }
-export default Dashboard;
+export default board;
